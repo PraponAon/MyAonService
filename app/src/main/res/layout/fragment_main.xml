@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--shift enter  ขึ้นบันทัดใหม่ -->
+    <!--this is view -->
+    <!--นี่คือ view เขียน comment ต้องอยู่นอก tag -->
+    <!--orange view รูปภาพ android รับแต่ png 24ิbit และต้องออกจาก photoshop-->
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:textSize="@dimen/h1"
+        android:text="Prapon Aon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1535ed" />
+    <!--red view -->
+    <!--เพิ่มคำสั่งกด ตัวย่อได้เลย-->
+     <View
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:background="#ed1532" />
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_pig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnGoToSecond"
+        android:layout_marginTop="20dp"
+        android:text="Go To Second"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
